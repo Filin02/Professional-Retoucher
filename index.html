@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курси з ретуші</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="mobile-nav-fade"></div>
+        <div class="moble-nav" id="mobile-nav">
+            <ul class="moble-nav__list">
+                <li class="moble-nav__link moble-nav__link-active"><a href="#!">home</a></li>
+                <li class="moble-nav__link"><a href="#!">Про мене</a></li>
+                <li class="moble-nav__link"><a href="#!">Portfolio</a></li>
+                <li class="moble-nav__link"><a href="#!">Price</a></li>
+                <li class="moble-nav__link"><a href="#!">Reviews</a></li>
+                
+            </ul>
+        </div>
+        <div class="header__menu">
+            <a href="#!" class="header__logo">nk<span>retoucher</span></a>
+            <ul class="header__nav">
+                <li><a class="nav-link" href="#about">Про мене</a></li>
+                <li ><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li ><a class="nav-link" href="#price">Price</a></li>
+                <li ><a class="nav-link" href="#reviews">Reviews</a></li>
+            </ul>
+            <button class="nav-button">
+                <span class="nav-btn__icon"></span>
+            </button>
+            <div class="header__contacts contacts">
+                <div class="header__socials">
+                    <a href="#!" class="socials__link"><svg width="40px" height="39px" viewBox="0 0 28 27" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 0.0825195C6.636 0.0825195 0.666664 6.05185 0.666664 13.4159C0.666664 20.0705 5.54266 25.5865 11.9173 26.5879V17.2692H8.53066V13.4159H11.9173V10.4785C11.9173 7.13719 13.9067 5.29185 16.9533 5.29185C18.412 5.29185 19.9373 5.55185 19.9373 5.55185V8.83185H18.2573C16.6 8.83185 16.084 9.85985 16.084 10.9145V13.4159H19.7813L19.1907 17.2692H16.084V26.5879C22.4573 25.5879 27.3333 20.0692 27.3333 13.4159C27.3333 6.05185 21.364 0.0825195 14 0.0825195Z"/>
+                        </svg></a>
+                    <a href="#!" class="socials__link"><svg width="40px" height="39px" viewBox="0 0 28 27" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 0.0825195C17.6227 0.0825195 18.0747 0.0958528 19.496 0.162519C20.916 0.229186 21.8827 0.451853 22.7333 0.78252C23.6133 1.12119 24.3547 1.57985 25.096 2.31985C25.774 2.98638 26.2986 3.79264 26.6333 4.68252C26.9627 5.53185 27.1867 6.49985 27.2533 7.91985C27.316 9.34119 27.3333 9.79319 27.3333 13.4159C27.3333 17.0385 27.32 17.4905 27.2533 18.9119C27.1867 20.3319 26.9627 21.2985 26.6333 22.1492C26.2996 23.0396 25.7748 23.846 25.096 24.5119C24.4293 25.1896 23.6231 25.7142 22.7333 26.0492C21.884 26.3785 20.916 26.6025 19.496 26.6692C18.0747 26.7319 17.6227 26.7492 14 26.7492C10.3773 26.7492 9.92534 26.7359 8.50401 26.6692C7.084 26.6025 6.11734 26.3785 5.26667 26.0492C4.37644 25.7152 3.57004 25.1904 2.90401 24.5119C2.22588 23.8454 1.70125 23.0391 1.36667 22.1492C1.03601 21.2999 0.813338 20.3319 0.746672 18.9119C0.684005 17.4905 0.666672 17.0385 0.666672 13.4159C0.666672 9.79319 0.680005 9.34119 0.746672 7.91985C0.813338 6.49852 1.03601 5.53319 1.36667 4.68252C1.70032 3.79209 2.22508 2.98561 2.90401 2.31985C3.57023 1.64149 4.37658 1.11683 5.26667 0.78252C6.11734 0.451853 7.08267 0.229186 8.50401 0.162519C9.92534 0.0998528 10.3773 0.0825195 14 0.0825195ZM14 6.74919C12.2319 6.74919 10.5362 7.45157 9.28596 8.70181C8.03572 9.95205 7.33334 11.6477 7.33334 13.4159C7.33334 15.184 8.03572 16.8797 9.28596 18.1299C10.5362 19.3801 12.2319 20.0825 14 20.0825C15.7681 20.0825 17.4638 19.3801 18.7141 18.1299C19.9643 16.8797 20.6667 15.184 20.6667 13.4159C20.6667 11.6477 19.9643 9.95205 18.7141 8.70181C17.4638 7.45157 15.7681 6.74919 14 6.74919V6.74919ZM22.6667 6.41585C22.6667 5.97383 22.4911 5.5499 22.1785 5.23734C21.866 4.92478 21.442 4.74919 21 4.74919C20.558 4.74919 20.1341 4.92478 19.8215 5.23734C19.5089 5.5499 19.3333 5.97383 19.3333 6.41585C19.3333 6.85788 19.5089 7.2818 19.8215 7.59436C20.1341 7.90693 20.558 8.08252 21 8.08252C21.442 8.08252 21.866 7.90693 22.1785 7.59436C22.4911 7.2818 22.6667 6.85788 22.6667 6.41585ZM14 9.41585C15.0609 9.41585 16.0783 9.83728 16.8284 10.5874C17.5786 11.3376 18 12.355 18 13.4159C18 14.4767 17.5786 15.4941 16.8284 16.2443C16.0783 16.9944 15.0609 17.4159 14 17.4159C12.9391 17.4159 11.9217 16.9944 11.1716 16.2443C10.4214 15.4941 10 14.4767 10 13.4159C10 12.355 10.4214 11.3376 11.1716 10.5874C11.9217 9.83728 12.9391 9.41585 14 9.41585V9.41585Z"/>
+                        </svg>
+                        </a>
+                    <a href="#!" class="socials__link"><svg fill="#fff" width="40px" height="39px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zM6.231 7h7.52c.399 0 .193.512-.024.643-.217.13-3.22 1.947-3.333 2.014s-.257.1-.403.1a.793.793 0 0 1-.402-.1L6.255 7.643C6.038 7.512 5.833 7 6.231 7zM14 12.5c0 .21-.252.5-.444.5H6.444C6.252 13 6 12.71 6 12.5V8.853c0-.092-.002-.211.172-.11l3.417 2.015a.69.69 0 0 0 .402.1c.146 0 .252-.011.403-.1l3.434-2.014c.174-.102.172.018.172.11V12.5z"/></svg></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container container-header">
+            <div class="header__content" id="about">
+                <div class="header__text">
+                    <h1 class="header__title">Привіт, мене звати <span>Анастасія</span> і я ретушер з міжнародним досвідом. </h1>
+                    <p class="header__subtitle">В цій сфері я вже більше двох років і маю високий рівень довіри своїх клієнтів. Працюю в основному із США, країнами Європи та Австралією. Мої роботи публікуються в журналах та на афішах білбордів ( одна з них навіть була на єкранах найвідомішої вулиці Нью Йорку - Time Square ). В основному спеціалізуюсь на beauty та журнальній ретуші, також працюю з lookbook зйомками. Детальну інформацію ви можете знайти нижче на сайті, а також зробити замовлення на ретуш.</p>
+                    <button class="header__btn button" id="btn">Замовити</button>
+                </div>
+                <div class="header__img">
+                    <img src="./img/header/img_11.png" alt="IMG">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="potfolio itc-slider" data-slider="itc-slider" id="portfolio">
+                <h2 class="portfolio__title section__title">Portfolio</h2>
+                <div class="potfolio__wrapper itc-slider__wrapper">
+                    <div class="potfolio__items itc-slider__items">
+                        <div class="portfolio__item itc-slider__item">
+                            <img src="./img/portfolio/img1.jpg" alt="Photo" class="portfolio__img">
+                        </div>
+                        <div class="potfolio__item itc-slider__item">
+                            <img src="./img/portfolio/img2.jpg" alt="Photo" class="portfolio__img">
+                        </div>
+                        <div class="potfolio__item itc-slider__item">
+                            <img src="./img/portfolio/img3.jpg" alt="Photo" class="portfolio__img">
+                        </div>
+                    </div>
+                    <button class="itc-slider__btn itc-slider__btn_prev"></button>
+                    <button class="itc-slider__btn itc-slider__btn_next"></button>
+                </div>
+                
+              </section>
+            <section class="price section__bg" id="price">
+                <div class="container">
+                    <h2 class="price__title section__title">Price</h2>
+                    <div class="price__cards">
+                        <div class="price__card">
+                            <h3 class="card__title">8$</h3>
+                            <p class="card__text">Обробка фешн зйомок, каталожні, зйомка одягу для магазинів. Мінімальна обробка шкіри, корекція кольору та одягу, корекція фону</p>
+                            <button class="price__btn button" id="btn" type="button">Замовити</button>
+                        </div>
+                        <div class="price__card">
+                            <h3 class="card__title">10$</h3>
+                            <p class="card__text">Стандартна обробка ваших особистих фото. Прибирання дефектів шкіри, пластика, корекція кольору, видалення зайвих об‘єктів на фото</p>
+                            <button class="price__btn button" id="btn" type="button">Замовити</button>
+                        </div>
+                        <div class="price__card">
+                            <h3 class="card__title">12$</h3>
+                            <p class="card__text">Портретна обробка. Фото не в повний зріст, де більш детально треба зробити ретуш шкіри обличчя, прибирання зайвих волосків, корекція нігтів, пластика</p>
+                            <button class="price__btn button" id="btn" type="button">Замовити</button>
+                        </div>
+                        <div class="price__card">
+                            <h3 class="card__title">16$</h3>
+                            <p class="card__text"> Б‘юті зйомка. Кроп кадри або кадр обличчя, де треба дуже ретельно зробити обробку шкіри, макіяжу, губи, зуби, волосся, повна натуральність в кадрі, нігті, обробка продукції, яка продається.</p>
+                            <button class="price__btn button" id="btn" type="button">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="review itc-slider" data-slider="itc-slider" id="reviews">
+                <h2 class="review__title section__title">Reviews</h2>
+                <div class="review__wrapper itc-slider__wrapper">
+                    <div class="review__items itc-slider__items">
+                        <div class="review__item itc-slider__item">
+                            <img src="./img/review/img1.jpg" alt="Photo" class="review__img">
+                        </div>
+                        <div class="review__item itc-slider__item">
+                            <img src="./img/review/img2.jpg" alt="Photo" class="review__img">
+                        </div>
+                        <div class="review__item itc-slider__item">
+                            <img src="./img/review/img3.jpg" alt="Photo" class="review__img">
+                        </div>
+                        <div class="review__item itc-slider__item">
+                            <img src="./img/review/img4.jpg" alt="Photo" class="review__img">
+                        </div>
+                        <div class="review__item itc-slider__item">
+                            <img src="./img/review/img6.jpg" alt="Photo" class="review__img">
+                        </div>
+                    </div>
+                </div>
+                <button class="itc-slider__btn itc-slider__btn_prev"></button>
+                <button class="itc-slider__btn itc-slider__btn_next"></button>
+            </section>
+            <section class="ordering__form section__bg" id="form">
+                <h2 class="ordering__form_title section__title">Замовити ретуш</h2>
+                <div class="ordering__form_content">
+                    <form class="content__form" action="#">
+                        <div class="form__input_wrapper">
+                            <label for="name">Ваше ім'я</label>
+                            <input type="text" name="name" id="name" placeholder="Ім'я">
+                        </div>
+                        <div class="form__input_wrapper">
+                            <label for="mail">Ваш E-mail</label>
+                            <input type="email" name="mail" id="mail" placeholder="E-mail">
+                        </div>
+                        <div class="form__input_wrapper">
+                            <label for="phone">Номер телефону</label>
+                            <input type="tel" name="phone" id="phone" placeholder="+380">
+                        </div>
+                        <div class="form__input_wrapper">
+                            <label for="message">Повідомлення</label>
+                            <textarea name="message" id="message" placeholder="Текст"></textarea>
+                        </div>
+                        <button class="form__button button" type="submit" id="btn">Замовити</button>
+                        <div class="form__contacts contacts">
+                            <div class="form__socials">
+                                <a href="#!" class="socials__link"><svg width="40px" height="39px" viewBox="0 0 28 27" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0.0825195C6.636 0.0825195 0.666664 6.05185 0.666664 13.4159C0.666664 20.0705 5.54266 25.5865 11.9173 26.5879V17.2692H8.53066V13.4159H11.9173V10.4785C11.9173 7.13719 13.9067 5.29185 16.9533 5.29185C18.412 5.29185 19.9373 5.55185 19.9373 5.55185V8.83185H18.2573C16.6 8.83185 16.084 9.85985 16.084 10.9145V13.4159H19.7813L19.1907 17.2692H16.084V26.5879C22.4573 25.5879 27.3333 20.0692 27.3333 13.4159C27.3333 6.05185 21.364 0.0825195 14 0.0825195Z"/>
+                                    </svg></a>
+                                <a href="#!" class="socials__link"><svg width="40px" height="39px" viewBox="0 0 28 27" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0.0825195C17.6227 0.0825195 18.0747 0.0958528 19.496 0.162519C20.916 0.229186 21.8827 0.451853 22.7333 0.78252C23.6133 1.12119 24.3547 1.57985 25.096 2.31985C25.774 2.98638 26.2986 3.79264 26.6333 4.68252C26.9627 5.53185 27.1867 6.49985 27.2533 7.91985C27.316 9.34119 27.3333 9.79319 27.3333 13.4159C27.3333 17.0385 27.32 17.4905 27.2533 18.9119C27.1867 20.3319 26.9627 21.2985 26.6333 22.1492C26.2996 23.0396 25.7748 23.846 25.096 24.5119C24.4293 25.1896 23.6231 25.7142 22.7333 26.0492C21.884 26.3785 20.916 26.6025 19.496 26.6692C18.0747 26.7319 17.6227 26.7492 14 26.7492C10.3773 26.7492 9.92534 26.7359 8.50401 26.6692C7.084 26.6025 6.11734 26.3785 5.26667 26.0492C4.37644 25.7152 3.57004 25.1904 2.90401 24.5119C2.22588 23.8454 1.70125 23.0391 1.36667 22.1492C1.03601 21.2999 0.813338 20.3319 0.746672 18.9119C0.684005 17.4905 0.666672 17.0385 0.666672 13.4159C0.666672 9.79319 0.680005 9.34119 0.746672 7.91985C0.813338 6.49852 1.03601 5.53319 1.36667 4.68252C1.70032 3.79209 2.22508 2.98561 2.90401 2.31985C3.57023 1.64149 4.37658 1.11683 5.26667 0.78252C6.11734 0.451853 7.08267 0.229186 8.50401 0.162519C9.92534 0.0998528 10.3773 0.0825195 14 0.0825195ZM14 6.74919C12.2319 6.74919 10.5362 7.45157 9.28596 8.70181C8.03572 9.95205 7.33334 11.6477 7.33334 13.4159C7.33334 15.184 8.03572 16.8797 9.28596 18.1299C10.5362 19.3801 12.2319 20.0825 14 20.0825C15.7681 20.0825 17.4638 19.3801 18.7141 18.1299C19.9643 16.8797 20.6667 15.184 20.6667 13.4159C20.6667 11.6477 19.9643 9.95205 18.7141 8.70181C17.4638 7.45157 15.7681 6.74919 14 6.74919V6.74919ZM22.6667 6.41585C22.6667 5.97383 22.4911 5.5499 22.1785 5.23734C21.866 4.92478 21.442 4.74919 21 4.74919C20.558 4.74919 20.1341 4.92478 19.8215 5.23734C19.5089 5.5499 19.3333 5.97383 19.3333 6.41585C19.3333 6.85788 19.5089 7.2818 19.8215 7.59436C20.1341 7.90693 20.558 8.08252 21 8.08252C21.442 8.08252 21.866 7.90693 22.1785 7.59436C22.4911 7.2818 22.6667 6.85788 22.6667 6.41585ZM14 9.41585C15.0609 9.41585 16.0783 9.83728 16.8284 10.5874C17.5786 11.3376 18 12.355 18 13.4159C18 14.4767 17.5786 15.4941 16.8284 16.2443C16.0783 16.9944 15.0609 17.4159 14 17.4159C12.9391 17.4159 11.9217 16.9944 11.1716 16.2443C10.4214 15.4941 10 14.4767 10 13.4159C10 12.355 10.4214 11.3376 11.1716 10.5874C11.9217 9.83728 12.9391 9.41585 14 9.41585V9.41585Z"/>
+                                    </svg>
+                                    </a>
+                                <a href="#!" class="socials__link"><svg fill="#fff" width="40px" height="39px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zM6.231 7h7.52c.399 0 .193.512-.024.643-.217.13-3.22 1.947-3.333 2.014s-.257.1-.403.1a.793.793 0 0 1-.402-.1L6.255 7.643C6.038 7.512 5.833 7 6.231 7zM14 12.5c0 .21-.252.5-.444.5H6.444C6.252 13 6 12.71 6 12.5V8.853c0-.092-.002-.211.172-.11l3.417 2.015a.69.69 0 0 0 .402.1c.146 0 .252-.011.403-.1l3.434-2.014c.174-.102.172.018.172.11V12.5z"/></svg></a>
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+        </section>
+        </div>
+    </main>
+    
+    <script src="./js/itc-slider.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/mobile-nav.js"></script>
+    <script src="./js/nav.js"></script>
+</body>
+</html>
